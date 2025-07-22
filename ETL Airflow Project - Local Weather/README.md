@@ -11,6 +11,6 @@ The pipeline consists of a DAG that performs the following tasks:
 
 The project runs locally using Docker to manage services (Airflow, PostgreSQL, Redis).
 A .env file is used to handle environment-specific settings. In particular: AIRFLOW_UID=50000
+At the end of the pipeline execution, the CSV files with the extracted and transformed data are available in the `dags/` folder.
 
-## At the end of the pipeline execution, the CSV files with the extracted and transformed data are available in the `dags/` folder.
 Technologies used: Apache Airflow, Python, Docker, Pandas.
