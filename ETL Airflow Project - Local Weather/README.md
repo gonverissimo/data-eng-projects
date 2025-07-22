@@ -12,4 +12,4 @@ The project runs locally using Docker to manage services (Airflow, PostgreSQL, R
 A .env file is used to handle environment-specific settings. In particular: AIRFLOW_UID=50000
 At the end of the pipeline execution, the CSV files with the extracted and transformed data are available in the `dags/` folder.
 
-Technologies used: Apache Airflow, Python, Docker, Pandas.
+Technologies used: Apache Airflow, Python, Docker.
