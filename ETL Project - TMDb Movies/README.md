@@ -13,8 +13,6 @@ The pipeline consists of the following steps:
   - Removing duplicate movies by ID.
 - Loads the cleaned data into a SQL Server table using `sqlalchemy` with an ODBC connection.
 
-The process is orchestrated by a `main.py` script that runs the ETL pipeline end to end.
-
 Prerequisites:
 - Python 3.7+
 - `requests` library
