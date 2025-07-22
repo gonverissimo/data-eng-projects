@@ -1,6 +1,5 @@
 # ETL Airflow Project - Local Weather
 
-## Description
 This project simulates a more "professional" data pipeline using Apache Airflow with scheduling and monitoring.
 It uses historical meteorological data fetched from a public API: https://api.open-meteo.com/v1/forecast?latitude=38.72&longitude=-9.13&hourly=temperature_2m
 
