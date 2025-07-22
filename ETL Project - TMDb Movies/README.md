@@ -28,4 +28,4 @@ Project Structure:
 - `load.py` – Loads the data into a SQL Server table.
 - `main.py` – Runs the full ETL pipeline.
 
-Technologies Used: Python, TMDb API, SQL Server, requests, pandas, sqlalchemy.
+Technologies Used: Python, SQL Server.
