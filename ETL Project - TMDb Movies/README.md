@@ -15,8 +15,7 @@ The pipeline consists of the following steps:
 
 The process is orchestrated by a `main.py` script that runs the ETL pipeline end to end.
 
-## Prerequisites
-
+Prerequisites:
 - Python 3.7+
 - `requests` library
 - `pandas` library
@@ -25,11 +24,10 @@ The process is orchestrated by a `main.py` script that runs the ETL pipeline end
 - Accessible SQL Server instance
 - A `.env` or `key.env` file containing the `TMDB_API_KEY` environment variable
 
-## Project Structure
-
+Project Structure:
 - `extract.py` – Extracts movie data from the TMDb API.
 - `transform.py` – Cleans and transforms the data.
 - `load.py` – Loads the data into a SQL Server table.
 - `main.py` – Runs the full ETL pipeline.
 
-Technologies Used: Python, TMDb API, SQL Server, requests, pandas, sqlalchemy
+Technologies Used: Python, TMDb API, SQL Server, requests, pandas, sqlalchemy.
