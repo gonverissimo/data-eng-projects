@@ -1,4 +1,4 @@
-# Local Airflow Pipeline
+# ETL Airflow Project - Local Weather
 
 ## This project simulates a more "professional" data pipeline using Apache Airflow with scheduling and monitoring.
 
