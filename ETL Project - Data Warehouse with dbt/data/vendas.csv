@@ -1,0 +1,7 @@
+id_venda,data_venda,cliente,produto,valor
+1,2024-01-05,Ana,Sapatos,59.99
+2,2024-01-06,João,Camisola,39.90
+3,2024-01-06,Ana,Mala,89.50
+4,2024-01-07,Carlos,Sapatos,59.99
+5,2024-01-08,Ana,Cinto,19.90
+6,2024-01-08,João,Calças,49.90

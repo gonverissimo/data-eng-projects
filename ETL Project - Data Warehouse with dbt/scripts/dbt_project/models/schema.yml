@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: vendas_raw
+    description: "Tabela original carregada a partir do CSV"
+    columns:
+      - name: id_venda
+        tests:
+          - not_null
+      - name: cliente
+        tests:
+          - not_null
+
+  - name: stg_vendas
+    description: "Tabela limpa e normalizada"
+    columns:
+      - name: valor
+        tests:
+          - not_null
