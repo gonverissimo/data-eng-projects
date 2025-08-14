@@ -32,17 +32,17 @@ It simulates IoT sensor data being produced continuously, consumed in real time,
 
 ## **How to Run**
 
-1. Start Kafka and PostgreSQL
+1. Start Kafka and PostgreSQL:
 docker compose up -d
 
-2. Create the database table
+2. Create the database table:
 docker exec -it postgres-sensors psql -U admin -d sensors -f db_setup.sql
 
-3. Start the Kafka Producer
+3. Start the Kafka Producer:
 python producer.py
 This script continuously sends simulated sensor data to the Kafka topic.
 
-4. Start the Kafka Consumer
+4. Start the Kafka Consumer:
 Open a new terminal and run:
 python consumer.py
 The consumer listens for incoming messages and inserts them into PostgreSQL.
@@ -50,3 +50,4 @@ The consumer listens for incoming messages and inserts them into PostgreSQL.
 5. Verify Data in PostgreSQL
 To check if data is being stored:
 docker exec -it postgres-sensors psql -U admin -d sensors -c "SELECT COUNT(*) FROM sensor_data;"
+
