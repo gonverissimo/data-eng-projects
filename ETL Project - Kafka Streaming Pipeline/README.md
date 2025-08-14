@@ -23,17 +23,16 @@ It simulates IoT sensor data being produced continuously, consumed in real time,
 ---
 
 ## **Project Structure**
-├── producer.py # Simulates sensors, sends data to Kafka
-├── consumer.py # Consumes data from Kafka and stores in PostgreSQL
-├── db_setup.sql # Creates the PostgreSQL table
-├── docker-compose.yml # Starts Kafka, Zookeeper, PostgreSQL
-└── README.md # Project documentation
+- producer.py # Simulates sensors, sends data to Kafka.
+- consumer.py # Consumes data from Kafka and stores in PostgreSQL.
+- db_setup.sql # Creates the PostgreSQL table.
+- docker-compose.yml # Starts Kafka, Zookeeper, PostgreSQL.
 
 ---
 
 ## **How to Run**
 
-### 1. Start Kafka and PostgreSQL
+1. Start Kafka and PostgreSQL
 docker compose up -d
 
 2. Create the database table
