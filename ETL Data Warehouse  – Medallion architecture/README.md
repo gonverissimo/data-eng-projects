@@ -11,5 +11,4 @@ This project demonstrates a **Data Warehouse pipeline** using **SQL Server** and
   - Removing records with NULL values in key columns.
 - **Gold (Analytics Layer)**: a **View** (`gold.vw_dim_customer`) over the Silver layer.  
   - Columns are renamed for simplicity (`cst_firstname + cst_lastname` → `fullname`, `cst_gndr` → `gender`, `cst_material_status` → `material_status`, `cst_create_date` → `create_date`).  
-  - `fullname` is the concatenation of first and last name.  
   - No additional transformations beyond Silver; just column renaming and full name aggregation.  
